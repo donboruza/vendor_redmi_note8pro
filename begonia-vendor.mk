@@ -53,6 +53,14 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/lib64/libaudio_param_parser-sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudio_param_parser-sys.so \
     vendor/redmi/begonia/proprietary/lib64/libaudioutilmtk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudioutilmtk.so \
     vendor/redmi/begonia/proprietary/lib64/libaudiotoolkit.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudiotoolkit.so \
+    vendor/redmi/begonia/proprietary/lib64/extractors/libmtkadpcmextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libmtkadpcmextractor.so \
+    vendor/redmi/begonia/proprietary/lib64/extractors/libmtkalacextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libmtkalacextractor.so \
+    vendor/redmi/begonia/proprietary/lib64/extractors/libmtkapeextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libmtkapeextractor.so \
+    vendor/redmi/begonia/proprietary/lib64/extractors/libmtkasfextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libmtkasfextractor.so \
+    vendor/redmi/begonia/proprietary/lib64/extractors/libmtkaviextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libmtkaviextractor.so \
+    vendor/redmi/begonia/proprietary/lib64/extractors/libmtkflvextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libmtkflvextractor.so \
+    vendor/redmi/begonia/proprietary/lib64/extractors/libmtkmp3extractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libmtkmp3extractor.so \
+    vendor/redmi/begonia/proprietary/lib64/extractors/libmtkmpeg2extractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libmtkmpeg2extractor.so \
     vendor/redmi/begonia/proprietary/system_ext/bin/mdlogger:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/mdlogger \
     vendor/redmi/begonia/proprietary/system_ext/bin/rtt:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/rtt \
     vendor/redmi/begonia/proprietary/system_ext/bin/trace:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/trace \
